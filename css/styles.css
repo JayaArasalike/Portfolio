@@ -1,0 +1,121 @@
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+  background-image: url("../img/nature.jpg");
+}
+
+
+
+@media (min-width: 489px) and (max-width: 575.98px) { 
+  .container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .ja-portfolio-image {
+    /*width: min-content;*/
+  } 
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 767px) { 
+  .invisible {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+  
+  .invisible {
+    visibility: visible !important;
+  }
+  .col-md-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 2 0 33.333333%;
+    max-width: 49.333333%;
+  }
+
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.ja-heading {
+  font-family: 'Frank Ruhl Libre', serif;
+  color: #441e29;
+}
+
+.ja-jumbotron-para {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  color: #441e2996 !important;
+}
+
+.bg-dark {
+    background-color: #441e29 !important;
+}
+
+.btn-primary{
+    background-color: #441e29;
+    border-color: #441e29;
+}
+
+.ja-logo {
+  font-size: 1.5rem;
+}
+
+.ja-card-title, .ja-card-text {
+  color: #441e29;
+}
+
+.ja-btn {
+  border-color: #441e29;
+  color: #441e29;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+
+.fa-fw {
+    text-align: center;
+    width: 1.25em;
+}
+
+.btn-html5, .btn-css3, .btn-js, .btn-codepen {
+    color: #fff;
+    background-color: #441e29;
+    margin: 0.25em;
+}
+.company {
+  float: right;
+  color: #441e29;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
