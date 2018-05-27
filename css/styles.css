@@ -11,22 +11,38 @@
 }
 
 
-
-@media (min-width: 489px) and (max-width: 575.98px) { 
+/*@media (min-width: 489px) and (max-width: 575.98px) { 
   .container {
     margin-left: 10%;
     margin-right: 10%;
   }
-  .ja-portfolio-image {
-    /*width: min-content;*/
-  } 
-}
-
+}*/
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (max-width: 767px) { 
   .invisible {
     display: none;
+  }
+}
+
+.ja-card-row {
+    max-width: 70%;
+    margin-left: 15%;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .ja-card-row {
+    display: flex;
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .ja-card-row {
+    display: flex;
+    max-width: 90%;
+    margin-left: 5%;
   }
 }
 
@@ -39,14 +55,18 @@
   .invisible {
     visibility: visible !important;
   }
-  .col-md-4 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 33.333333%;
-    flex: 2 0 33.333333%;
-    max-width: 49.333333%;
+  
+  
+  .ja-card {
+    /*-webkit-box-flex: 0;*/
+    /*-ms-flex: 0 0 33.333333%;*/
+    /*flex: 2 0 auto;*/
+    /*max-width: 33.33%;*/
   }
 
 }
+
+
 
 .jumbotron p:last-child {
   margin-bottom: 0;
