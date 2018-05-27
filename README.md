@@ -7,4 +7,4 @@ I used font awesome for icons which can be found at (https://fontawesome.com/).
 
 This is how the site looks:
 
-![Portfolio project](/img/portfolio.png)
+![Portfolio project](/img/portfolio.png width="200" height="400")
